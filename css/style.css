@@ -1,0 +1,5 @@
+*{margin: 0; padding: 0;}
+body{background: rgb(124, 157, 250); height: 100vh;}
+.phone{width: 541px; height: 989px; position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%); background: url(../img/iphone8_plus.png) no-repeat;}
+.content{width: 414px; height: 736px;  position: absolute; top: 126px; left: 66px;}
+iframe{width: 100%; height: 100%;}

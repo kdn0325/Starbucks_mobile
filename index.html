@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>스타벅스 모바일 버전</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="js/modernizr-custom.js"></script>
+</head>
+<body>
+    <div class="phone">
+        <div class="content">
+            <!-- <iframe src="mobile/index.html" frameborder="0"></iframe> -->
+            <iframe src="https://kdn0325.github.io/StarbucksKR/" frameborder="0"></iframe>
+        </div>
+    </div>
+    <script>
+        if (Modernizr.touchevents) {
+            // location.href ='./mobile/index.html';
+            location.href ='https://kdn0325.github.io/StarbucksKR/';
+        } else {
+          // not-supported
+        }
+    </script>
+</body>
+</html>
